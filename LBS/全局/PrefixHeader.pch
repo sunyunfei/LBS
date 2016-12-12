@@ -1,0 +1,11 @@
+#import<UIKit/UIKit.h>
+#import "UserDefaultManager.h"
+#import "NSObject+AFN.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
+#import "MJRefresh.h"
+//本地存储姓名
+static NSString * const local_name = @"local_name";
+
+#define K_W [UIScreen mainScreen].bounds.size.width
+#define K_H [UIScreen mainScreen].bounds.size.height

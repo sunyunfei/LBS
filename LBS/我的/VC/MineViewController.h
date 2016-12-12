@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MineViewController.h
 //  LBS
 //
 //  Created by 孙云飞 on 2016/12/10.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MineViewController : UITableViewController
 
 @end
-
